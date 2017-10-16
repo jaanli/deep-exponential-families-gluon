@@ -39,8 +39,10 @@ Also see examples in `tests/` folder.
 
 ### Requirements
 Install requirements with [anaconda](https://conda.io/docs/user-guide/install/index.html):
-```conda env create -f environment.yml
-source activate deep_exp_fam```
+```
+conda env create -f environment.yml
+source activate deep_exp_fam
+```
 
 ### Testing
 Run `PYTHONPATH=. pytest` for unit tests and `mypy $(find . -name '*.py')` for static type-checking.
