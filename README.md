@@ -1,6 +1,6 @@
-### Deep exponential families (gluon / mxnet)
+### Deep exponential families
 
-This is an implementation of deep exponential families in gluon (mxnet). DEFs are described in https://arxiv.org/abs/1411.2581
+This is an implementation of deep exponential families in MXNet/Gluon. DEFs are described in https://arxiv.org/abs/1411.2581
 
 I found it much easier to implement this in an imperative / dynamic graph library like mxnet than in autodifferentiation libraries that only support static computation graphs.
 
