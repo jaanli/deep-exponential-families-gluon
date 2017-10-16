@@ -1,0 +1,17 @@
+name: deep_exp_fam
+channels:
+  - conda-forge
+dependencies:
+- python>=3.5
+- pytest
+- pyyaml
+- scipy
+- ipython
+- scikit-learn
+- h5py
+- pillow
+- gensim
+- pip:
+  - mypy
+  - ipdb
+  - mxnet>=mxnet-0.12.0b20171016
